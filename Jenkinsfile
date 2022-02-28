@@ -58,5 +58,12 @@ pipeline {
                
             }
         }
+         stage('apc kosofe') {
+           
+            steps {
+                echo 'abbey cheche is the incoming rep for kosofe >> kosofe.txt'
+               
+            }
+        }
     }
 }
