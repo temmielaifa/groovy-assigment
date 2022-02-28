@@ -44,5 +44,12 @@ pipeline {
                
             }
         } 
+         stage('nigeria') {
+           
+            steps {
+                sh 'touch apc.sh'
+               
+            }
+        } 
     }
 }
