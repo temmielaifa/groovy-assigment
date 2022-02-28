@@ -50,6 +50,13 @@ pipeline {
                 sh 'touch apc.sh'
                
             }
-        } 
+        }
+         stage('my homework') {
+           
+            steps {
+                echo 'trying my assignment out >> kilanko.txt'
+               
+            }
+        }
     }
 }
